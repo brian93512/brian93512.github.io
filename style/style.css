@@ -1,16 +1,19 @@
 .navbar {
+	font-family: 'IBM Plex Sans', sans-serif;
 	margin-bottom: 0;
 	border-radius: 0;
 	background-color: #2E2E2E;
 	color: #FFF;
 	padding: 1% 0;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	border: 0; 
 }
 .navbar-brand {
 	float: left;
+	font-size: 1.5em;
 	min-height: 55px;
-	padding: 0 15px 5px;
+	/*color: #FFF;*/
+	/*padding: 0 15px 5px;*/
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
 	color: #FFF;
@@ -30,6 +33,9 @@
 font-size: 16px;
 }
 
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
 
 /*.btn {
 	font-size: 18px;
@@ -53,7 +59,7 @@ font-size: 16px;
 footer {
 	width: 100%;
 	background-color: #2E2E2E;
-	padding: 5%;
+	padding: 4%;
 	color: #FFF;
 }
 .fa {
